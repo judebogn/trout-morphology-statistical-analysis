@@ -5,16 +5,12 @@ A reproducible R Markdown project studying morphological measurements from two t
 ## View the analysis
 
 - **`analysis.Rmd`** is the source document containing the R code, tables, plots, and explanations.
-- Knit `analysis.Rmd` to **GitHub Markdown** to create `analysis.md`. GitHub can display the generated Markdown, including embedded plots, directly in the repository.
 
 To render the report in RStudio, open `analysis.Rmd` and click **Knit**, or run:
 
 ```r
 rmarkdown::render("analysis.Rmd")
 ```
-
-The document is configured to generate GitHub-flavoured Markdown. After knitting, commit both `analysis.Rmd` and the generated `analysis.md` (as well as the generated figure folder) so visitors can read the results without running R themselves.
-
 ## Research questions
 
 - How are body length, jaw length, and number of spots distributed?
@@ -54,6 +50,3 @@ This is an exploratory academic analysis of one supplied dataset, not a causal s
 ## Authors
 
 - Mahoulé Jude Bogninou
-- Laetitia Yangouen Nankam (co-author of the original academic project)
-
-Before publishing publicly, confirm that both authors agree and that the course rules allow redistribution of the data. No license is included until redistribution rights are confirmed.
